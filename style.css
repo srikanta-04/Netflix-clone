@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body{
+  background-color: black;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", serif;
+}
+.main {
+  background-image: url(images/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 644px;
+  position: relative;
+}
+.main .box {
+  height: 644px;
+  width: 100%;
+  opacity: 0.8;
+  position: absolute;
+  background-color: black;
+  top: 0;
+}
+nav {
+  max-width: 60vw;
+  /* background-color: yellow; */
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+nav img {
+  color: red;
+  width: 130px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.hero {
+  height: calc(100% - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  padding: 0 23px;
+  text-align: center;
+  gap: 23px;
+}
+.font1 {
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+}
+.font2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+.font3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.separation {
+  height: 11px;
+  background-color: rgb(24, 108, 182);
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: rgba(31, 30, 30, 0.78);
+    border: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+.redsm{
+  background-color: red;
+  color: white;
+ 
+}
+.red{
+  background-color: red;
+  color: white;
+  padding: 5px 24px;
+  border-radius: 6px;
+  font-size: 20px;
+
+}
+.main input{
+  background-color: rgb(23, 23, 23,0.2);
+  color: white;
+  
+  padding: 9px 101px 8px 14px;
+  border-radius: 6px;
+  font-size: 15px;
+  border: none;
+
+}
+.hbtn{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 36px;
+}
+.first{
+  /* height: 80vh; */
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  color: white;
+  margin: auto;
+ 
+}
+
+.image img{
+  width: 555px;
+    position: relative;
+    z-index: 10;
+}
+.image{
+  position: relative;
+
+
+}
+.image video{
+  position: absolute;
+  top: 51px;
+  right: 0;
+  width: 555px;
+}
+span:nth-child(1){
+  font-size: 48px;
+  font-weight: bolder;
+
+
+}
+span:nth-child(2){
+  font-size: 24px;
+  font-weight: bolder;
+
+}
+.span{
+  display: flex;
+  flex-direction: column;
+  padding: 34px 0;
+}
+.faq{
+  background-color: black;
+  color: white;
+  padding: 24px;
+}
+.faq h2{
+  text-align: center;
+  font-size: 48px;
+}
+.faqbox:hover {
+background-color: rgb(84, 78, 78);
+ 
+
+}
+.faqbox{
+ font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  color: white;
+  padding: 15px;
+  
+  margin:13px auto;
+  max-width: 70vw;
+  cursor: pointer;
+}
+.down{
+  filter: invert(1);
+}
+footer{
+  color: white;
+  max-width: 70vw;
+  margin: auto;
+}
+footer a{
+  
+  color: #ffffffe9;
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+
+ 
+}
+.footeriems{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+@media screen and (max-width:1300px) {
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    color: white;
+   
+  
+   
+  }
+  footer{
+    display: grid;
+    justify-content: center;
+    
+  }
+  
+ 
+  .first{
+   flex-wrap: wrap;
+  }
+  .image img{
+    width: 475px;
+     
+  }
+  .image{
+    position: relative;
+  
+  
+  }
+  span:nth-child(1){
+    font-size: 32px;
+   
+  
+  
+  }
+  .image video{
+   
+    width: 475px;
+ }
+ nav {
+  max-width: 90vw;
+ }
+ .main input{
+width: 90px;
+font-size: small; 
+padding: auto;
+}
+body{
+max-width: max-content;
+}
+
+
+
+}
+.hbtn{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
